@@ -16,7 +16,11 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
+          {% if post.img %}
           <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          {% else %}
+          <img src="img/profile.png" class="img-responsive" alt="logo">
+          {% endif %}
         </a>
       </div>
       {% endfor %}

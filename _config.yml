@@ -56,7 +56,7 @@ credits: "We'd be better if the world just danced."
 markdown: kramdown
 permalink: pretty
 
-#sfor posts
+#for posts
 defaults:
   - scope:
       path: ""

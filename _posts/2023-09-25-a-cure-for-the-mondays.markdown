@@ -2,7 +2,6 @@
 layout: default
 modal-id: 2
 date: 2023-09-25
-img: 20230925.cureforthemondays.jpg
 alt: image-alt
 project-date: September 2023
 title: A Cure for the Mondays (2023-09-25)

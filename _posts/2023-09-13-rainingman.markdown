@@ -2,7 +2,6 @@
 layout: default
 modal-id: 1
 date: 2023-09-13
-img: 20230913.rainingman.jpg
 alt: image-alt
 project-date: September 2023
 title: Raining Man (2023)

@@ -2,7 +2,11 @@
 <html>
 {% include head.html %}
 
+{% if site.background_image and site.background_image != empty %}
+<body id="page-top" class="index" background="{{ site.background_image }}">
+{% else %}
 <body id="page-top" class="index">
+{% endif %}
   {% include nav.html %}
   {% include header.html %}
   {% include sets_grid.html %}

@@ -36,27 +36,33 @@ housemixesuser: djrobyay
 social:
   - title: mixcloud
     url: https://mixcloud.com/djrobyay
-    hovertext: listen and download on mixcloud.com
+    hovertext: listen to mixes on mixcloud.com
   - title: house
     iconalt: solid
-    hovertext: listen and download on house-mixes.com
     url: https://www.house-mixes.com/profile/djrobyay
+    hovertext: listen and download mixes on house-mixes.com
+  - title: instagram
+    url: https://www.instagram.com/djrobyay
+  - title: twitter
+    url: https://twitter.com/djrobyay
+  - title: telegram
+    url: http://t.me/djrobyay
+    hovertext: reach us on telegram
+  - title: whatsapp
+    url: https://wa.me/+18577762929
+    hovertext: reach us on whatsapp
   - title: phone
     iconalt: solid
-    url: tel:+1-857-776-2929
-    hovertext: call us
+    url: tel:+18577762929
+    hovertext: "call us (tho we prefer a text message!)"
   - title: comment-sms
     iconalt: solid
-    url: sms:+1-857-776-2929?&body=hi%2C%20djrobyay%21
+    url: sms:+18577762929?&body=hi%2C%20djrobyay%21
     hovertext: send us a text message
   - title: envelope
     iconalt: solid
     url: mailto:me@djrobyay.me
     hovertext: send us an email
-  - title: instagram
-    url: https://www.instagram.com/djrobyay
-  - title: twitter
-    url: https://twitter.com/djrobyay
 
 # Postal address (add as many lines as necessary)
 address:

@@ -39,6 +39,12 @@ layout: null
     <entry{% if post.lang %}{{" "}}xml:lang="{{ post.lang }}"{% endif %}>
       <title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
       <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+      {% if post.houseurl and post.houseurl != empty %}
+      <link href="{{ post.houseurl | absolute_url }}" rel="alternate" type="text/html" title="Listen to {{ post.title }} at House-Mixes.com" />
+      {% endif %}
+      {% if post.mixcloudurl and post.mixcloudurl != empty %}
+      <link href="{{ post.mixcloudurl | absolute_url }}" rel="alternate" type="text/html" title="Listen at {{ post.title }} Mixcloud.com" />
+      {% endif %}
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
       <id>{{ post.id | absolute_url | xml_escape }}</id>
@@ -71,7 +77,6 @@ layout: null
       {% if post.description and post.description != empty %}
         <summary type="html">{% for description in post.description %}{{ description.line | strip_html | normalize_whitespace | xml_escape }} {% endfor %}</summary>
       {% endif %}
-
       {% assign post_image = post.image.path | default: post.image %}
       {% if post_image %}
         {% unless post_image contains "://" %}

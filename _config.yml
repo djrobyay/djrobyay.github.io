@@ -37,6 +37,12 @@ social:
   - title: house
     iconalt: solid
     url: https://www.house-mixes.com/profile/djrobyay
+  - title: phone
+    iconalt: solid
+    url: tel:+1-857-776-2929
+  - title: comment-sms
+    iconalt: solid
+    url: sms:+1-857-776-2929?body=hi%2C%20djrobyay%21
   - title: envelope
     iconalt: solid
     url: mailto:me@djrobyay.me

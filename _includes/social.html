@@ -5,7 +5,7 @@
               {% if network.hovertext and network.hovertext != empty %}
               <a href="{{ network.url }}" class="btn-social btn-outline" title="{{ network.hovertext }}">
               {% else %}
-              <a href="{{ network.url }}" class="btn-social btn-outline" title="{{ network.title }}">
+              <a href="{{ network.url }}" class="btn-social btn-outline" title="check us out on {{ network.title }}">
               {% endif %}
               {% if network.iconalt %}
                   <i class="fa-{{ network.iconalt }} fa-fw fa-{{ network.title }}"></i></a>

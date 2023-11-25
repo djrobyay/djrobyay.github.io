@@ -24,7 +24,7 @@ color:
 # Footer settings
 footer:
   copyright: djrobyay
-  location: Location
+  location: On the earth
   social: On the internets
   credits: "Diana Ross Says:"
 
@@ -47,6 +47,12 @@ address:
   - line: (nomadic by nature)
   - line: currently based in Las Vegas, NV, USA
   - line: willing to travel and to relocate
+
+about:
+  - line: "djrobyay is a rising star in the house music scene, hailing from Las Vegas with a passion for creating funky, soulful, and disco-infused mixes."
+  - line: "rob was introduced to house music in 1996 at Junior Vasquez&#x27;s legendary Tunnel events in New York City. The infectious energy of the scene left a lasting impression, and he continued to explore the underground desert party scene in Southern California."
+  - line: "Drawing inspiration from the likes of Dylan Drazen, Mark Farina, and Joe D&#x27;Espinosa, rob has been honing his new craft in private and for friends. Now, he&#x27;s ready to take his talents to the next level, seeking opportunities to spin publicly in LGBT-friendly spaces. His sets are characterized by their high-energy, feel-good vibes."
+  - line: "With a deep love for the genre and a dedication to his craft, this new comer is poised to make a big impact on the house music scene. Keep an eye out for djrobyay as he brings his unique sound to a club or festival near you!"
 
 # Credits content
 credits: "We'd be better if the world just danced."

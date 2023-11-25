@@ -9,6 +9,22 @@
           <span class="skills">{{ site.skills }}</span>
         </div>
         <hr class="star-light" />
+        <div class="intro-text">
+          <ul class="list-inline">
+            {% for network in site.social %}
+            <li>
+              {% if network.iconalt %}
+              <a href="{{ network.url }}" class="btn-social btn-outline">
+                  <i class="fa-{{ network.iconalt }} fa-fw fa-{{ network.title }}"></i></a>
+              {% else %}
+              <a href="{{ network.url }}" class="btn-social btn-outline">
+                  <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <hr class="star-light" />
       </div>
     </div>
   </div>

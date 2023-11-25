@@ -19,7 +19,7 @@
           <a href="#page-top"></a>
         </li>
         <li class="page-scroll">
-          <a href="#portfolio">Sets</a>
+          <a href="#sets">Sets</a>
         </li>
         <li class="page-scroll">
           <a href="#about">About</a>
@@ -27,19 +27,6 @@
         <li class="page-scroll">
           <a href="#contact">Contact</a>
         </li>
-        {% for network in site.social %}
-        <li>
-          <ul>
-          {% if network.iconalt %}
-          <a href="{{ network.url }}" class="btn-social btn-outline">
-              <i class="fa-{{ network.iconalt }} fa-fw fa-{{ network.title }}"></i></a>
-          {% else %}
-          <a href="{{ network.url }}" class="btn-social btn-outline">
-              <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
-          {% endif %}
-          </ul>
-        </li>
-        {% endfor %}
       </ul>
     </div>
     <!-- /.navbar-collapse -->

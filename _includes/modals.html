@@ -18,7 +18,7 @@
             {% if post.img %}
             <img src="img/sets/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% else %}
-            <img src="img/sets/gobi.jpeg" class="img-responsive img-centered" alt="logo">
+            <img src="img/sets/gobi.jpeg" class="img-responsive img-centered" alt="star tracks over Mongolia's Gobi Desert">
             {% endif %}
             {% if post.description %}
             {% for description in post.description %}
@@ -26,8 +26,7 @@
             {% endfor %}
             <hr class="star-primary">
             {% endif %}
-            <!--ul class="list-inline item-details"-->
-            <ul>
+            <ul class="list-inline item-details">
               {% if post.mixcloudurl %}
               <a href="{{ post.mixcloudurl }}" class="btn btn-default">
                 <i class="fa-brands fa-mixcloud"></i> Listen now on mixcloud.com!

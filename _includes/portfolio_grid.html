@@ -1,4 +1,4 @@
-<!-- Portfolio Grid Section -->
+.<!-- Portfolio Grid Section -->
 <section id="sets">
   <div class="container portfolio-flex-grid">
     <div class="row">
@@ -9,18 +9,18 @@
     </div>
     <div class="portfolio-flex-row">
       {% for post in site.posts %}
-      <div class="portfolio-flex-item portfolio-item">
+      {% if post.img %}
+      <div class="portfolio-flex-item portfolio-item" style="background-image:url({{ site.github.url }}//img/sets/{{ post.img }})">
+      {% else %}
+      <div class="portfolio-flex-item portfolio-item" style="background-image:url({{ site.github.url }}//img/sets/gobi.jpeg)">
+      {% endif %}
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          {% if post.img %}
-          <img src="img/sets/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-          {% else %}
-          <img src="img/sets/gobi.jpeg" class="img-responsive" alt="logo">
-          {% endif %}
+          <h2>{{ site.title }}</h2>
         </a>
       </div>
       {% endfor %}

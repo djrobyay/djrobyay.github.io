@@ -2,6 +2,7 @@
 layout: default
 modal-id: 6
 date: 2023-10-25
+image: "/img/sets/2023-10-25-getting-the-groove-back.png"
 img: 2023-10-25-getting-the-groove-back.png
 alt: "Getting My Groove Back"
 title: Getting the Groove Back (2023-10-25)

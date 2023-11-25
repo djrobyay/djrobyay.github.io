@@ -2,6 +2,7 @@
 layout: default
 modal-id: 7
 date: 2023-11-10
+image: "/img/sets/2023-11-10-live-at-gambit.jpeg"
 img: 2023-11-10-live-at-gambit.jpeg
 alt: "digital promotional flyer from 2023-11-10 live event at Gambit Lounge in Henderson, NV"
 title: "Live at Gambit (2023-11-10)"

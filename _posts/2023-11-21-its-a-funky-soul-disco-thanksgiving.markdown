@@ -2,6 +2,7 @@
 layout: default
 modal-id: 8
 date: 2023-11-21
+image: "/img/sets/2023-11-21-its-a-funky-soul-disco-thanksgiving.png"
 img: 2023-11-21-its-a-funky-soul-disco-thanksgiving.png
 alt: "cartoon turkey wearing sunglasses and playing a saxophone cuz he funky and got soul"
 title: "It's a Funky Soul Disco Thanksgiving (2023-11-21)"

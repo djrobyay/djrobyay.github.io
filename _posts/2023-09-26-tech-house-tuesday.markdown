@@ -2,6 +2,7 @@
 layout: default
 modal-id: 4
 date: 2023-09-26
+image: "/img/sets/2023-09-26-tech-house-tuesday.jpeg"
 img: 2023-09-26-tech-house-tuesday.jpeg
 alt: "rainbow fractal skull"
 title: Tech House Tuesday (2023-09-26)

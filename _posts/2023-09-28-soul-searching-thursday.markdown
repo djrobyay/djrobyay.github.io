@@ -2,6 +2,7 @@
 layout: default
 modal-id: 5
 date: 2023-09-28
+image: "/img/sets/2023-09-28-soul-searching-thursday.jpeg"
 img: 2023-09-28-soul-searching-thursday.jpeg
 alt: "Stan from South Park notes: 'Lately, I've been doing a lot of soul searching.'"
 title: Soul Searching Thursday (2023-09-28)

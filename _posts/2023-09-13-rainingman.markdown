@@ -2,6 +2,7 @@
 layout: default
 modal-id: 1
 date: 2023-09-13
+image: "/img/sets/2023-09-13-raining-man.jpeg"
 img: 2023-09-13-raining-man.jpeg
 alt: "disco buddha reminds you: stay positive!"
 title: Raining Man (2023)

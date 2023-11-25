@@ -68,8 +68,8 @@ layout: null
         <category term="{{ tag | xml_escape }}" />
       {% endfor %}
 
-      {% if post.excerpt and post.excerpt != empty %}
-        <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
+      {% if post.description and post.description != empty %}
+        <summary type="html">{% for description in post.description %}{{ description.line | strip_html | normalize_whitespace | xml_escape }} {% endfor %}</summary>
       {% endif %}
 
       {% assign post_image = post.image.path | default: post.image %}

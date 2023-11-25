@@ -2,6 +2,7 @@
 layout: default
 modal-id: 3
 date: 2023-09-25
+image: "/img/sets/2023-09-25-a-cure-for-the-mondays.jpeg"
 img: 2023-09-25-a-cure-for-the-mondays.jpeg
 alt: "a call from 'Monday' being DECLINED!"
 title: A Cure for the Mondays (2023-09-25)

@@ -2,6 +2,7 @@
 layout: default
 modal-id: 2
 date: 2023-09-15
+image: "/img/sets/2023-09-15-funky-friday-disco.jpeg"
 img: 2023-09-15-funky-friday-disco.jpeg
 alt: "lighted disco ball with some funky wallpaper"
 title: Funky Friday Disco (2023-09-15)

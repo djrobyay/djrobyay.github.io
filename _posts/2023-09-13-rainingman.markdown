@@ -11,5 +11,5 @@ description:
   - line: It was hard to dance in the mud, so I didn’t want it to be explicitly dance heavy. But I wanted something light to break up the silence. This is the set I needed to hear.
   - line: I selected tracks having to do with water or weather - rain, rivers, flood, clouds, sun - either in the track title or performer's name. The especially fun part was that I had never played most of the tracks I ultimately used, tho they were in my library. In fact, only two tracks had preset cue points (Rain on Me, and Let the Sun Shine), which is frankly why I let the tracks run through to their ends so often. It genre hops wildly. It’s a very lazy mix, if I’m being completely honest. Even still, I think it communicates a lot of complex emotion. And I think it would have been well received by a bunch of unexpectedly wet desert party people.
   - line: I was pleased with how it came out, so I decided to share it.
-mixcloudurl: https://www.mixcloud.com/djrobyay/raining-man-2023/
+mixcloud: raining-man-2023
 ---

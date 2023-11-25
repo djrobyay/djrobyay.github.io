@@ -11,6 +11,6 @@ description:
   - line: But, yanno.. that's not really what happened.
   - line: Whether because I felt burned out after doing so much in September, or because I got lazy, or whatever, I just wasn't feeling up to it for around a month. I kept experimenting with new tracks, but nothing really excited me.
   - line: This set, however, felt really great. I am SO FUCKING IN LOVE with Suki Soul. Every single time I hear Wear it Out, I feel happy.
-mixcloudurl: https://www.mixcloud.com/djrobyay/getting-the-groove-back-2023-10-25/
-houseurl: https://www.house-mixes.com/profile/djrobyay/getting-the-groove-back
+mixcloud: getting-the-groove-back-2023-10-25
+housemixes: getting-the-groove-back
 ---

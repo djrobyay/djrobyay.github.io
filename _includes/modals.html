@@ -28,11 +28,13 @@
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.mixcloudurl %}
+              <iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2F{{ site.mixcloudusername }}%2F{{ post.mixcloud }}%2F" frameborder="0" ></iframe>
               <a href="{{ post.mixcloudurl }}" class="btn btn-default">
                 <i class="fa-brands fa-mixcloud"></i> Listen now on mixcloud.com!<br>
               </a>
               {% endif %}
               {% if post.houseurl %}
+              <iframe width='100%' height='120'; src='https://www.house-mixes.com/widget/iframe?feed=S%3Ad{{ site.housemixesuser }}%3A{{ post.housemixes }}' frameborder='0'></iframe>
               <a href="{{ post.houseurl }}" class="btn btn-default">
                 <i class="fa-solid fa-house"></i> Listen <b>& download</b> now on House-Mixes.com!
               </a>

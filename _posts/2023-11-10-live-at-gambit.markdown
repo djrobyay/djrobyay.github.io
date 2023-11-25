@@ -12,6 +12,6 @@ description:
   - line: "Unfortunately, I had only thirty minutes. And I was getting on an airplane first thing the next morning, to go hear my friend <a href='https://dylandrazen.com/'>Dylan Drazen</a> spin a fierce classic 90s house set in Fort Lauderdale, so I couldn't even stay to hear everyone play."
   - line: "But... that was fucking addictive! It's a damn shame I had such a short time slot! I could have played for hours."
   - line: "Extra special thanks to Diesel, Hannah, Suwasit, and Tiffany for coming out and supporting me at my very first performance! It meant fucking everything to me."
-mixcloudurl: https://www.mixcloud.com/djrobyay/live-at-gambit-20231110/
-houseurl: https://www.house-mixes.com/profile/djrobyay/live-at-gambit-2023-11-10
+mixcloud: live-at-gambit-20231110
+housemixes: live-at-gambit-2023-11-10
 ---

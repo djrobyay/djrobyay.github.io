@@ -28,7 +28,6 @@ footer:
   social: On the internets
   credits: "Diana Ross Says:"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: mixcloud
     url: https://mixcloud.com/djrobyay
@@ -45,7 +44,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: nomadic by nature
+  - line: (nomadic by nature)
   - line: currently based in Las Vegas, NV, USA
   - line: willing to travel and to relocate
 

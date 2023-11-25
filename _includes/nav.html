@@ -29,6 +29,7 @@
         </li>
         {% for network in site.social %}
         <li>
+          <ul>
           {% if network.iconalt %}
           <a href="{{ network.url }}" class="btn-social btn-outline">
               <i class="fa-{{ network.iconalt }} fa-fw fa-{{ network.title }}"></i></a>
@@ -36,6 +37,7 @@
           <a href="{{ network.url }}" class="btn-social btn-outline">
               <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
           {% endif %}
+          </ul>
         </li>
         {% endfor %}
       </ul>

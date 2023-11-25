@@ -32,12 +32,14 @@
               <a href="https://www.mixcloud.com/{{ site.mixclouduser }}/{{ post.mixcloud }}/" class="btn btn-default">
                 <i class="fa-brands fa-mixcloud"></i> Listen now on mixcloud.com!<br>
               </a>
+              <hr class="star-primary">
               {% endif %}
               {% if post.housemixes %}
               <iframe width='100%' height='120'; src='https://www.house-mixes.com/widget/iframe?feed=S%3A{{ site.housemixesuser }}%3A{{ post.housemixes }}' frameborder='0'></iframe>
               <a href="https://www.house-mixes.com/profile/{{ site.housemixesuser }}/{{ post.housemixes }}" class="btn btn-default">
                 <i class="fa-solid fa-house"></i> Listen <b>& download</b> now on House-Mixes.com!
               </a>
+              <hr class="star-primary">
               {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>

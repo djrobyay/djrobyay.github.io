@@ -46,7 +46,7 @@ social:
   - title: twitter
     url: https://twitter.com/djrobyay
   - title: telegram
-    url: http://t.me/djrobyay
+    url: tg://resolve?domain=djrobyay
     hovertext: reach us on telegram
   - title: whatsapp
     url: https://wa.me/+18577762929

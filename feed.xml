@@ -46,11 +46,11 @@ layout: null
     <entry{% if post.lang %}{{" "}}xml:lang="{{ post.lang }}"{% endif %}>
       <title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
       <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
-      {% if post.houseurl and post.houseurl != empty %}
-      <link href="{{ post.houseurl }}" rel="alternate" type="text/html" title="Listen to {{ post.title }} at House-Mixes.com" />
+      {% if post.housemixes and post.housemixes != empty %}
+      <link href="https://www.house-mixes.com/profile/{{ site.housemixesuser }}/{{ post.housemixes }}" rel="alternate" type="text/html" title="Listen to {{ post.title }} at House-Mixes.com" />
       {% endif %}
-      {% if post.mixcloudurl and post.mixcloudurl != empty %}
-      <link href="{{ post.mixcloudurl }}" rel="alternate" type="text/html" title="Listen at {{ post.title }} Mixcloud.com" />
+      {% if post.mixcloud and post.mixcloud != empty %}
+      <link href="https://www.mixcloud.com/{{ site.mixclouduser }}/{{ post.mixcloud }}/" rel="alternate" type="text/html" title="Listen at {{ post.title }} Mixcloud.com" />
       {% endif %}
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>

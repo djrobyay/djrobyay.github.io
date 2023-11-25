@@ -20,8 +20,13 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
+          {% if post.img %}
+          <img src="img/sets/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          {% else %}
+          <img src="img/sets/gobi.jpeg" class="img-responsive" alt="star tracks over Mongolia's Gobi Desert">
+          {% endif %}
         </a>
-        <h3><span>{{ post.title }}</span></h3>
+        <h5><span>{{ post.title }}</span></h5>
       </div>
       {% endfor %}
     </div>

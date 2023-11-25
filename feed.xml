@@ -18,10 +18,17 @@ layout: null
     <title type="html">{{ site.name | smartify | xml_escape }}</title>
   {% endif %}
 
+  {% if site.subtitle %}
+  {% if site.description %}
+    <subtitle>{{ site.subtitle | xml_escape }} {{ site.description | xml_escape }}</subtitle>
+  {% else %}
+    <subtitle>{{ site.subtitle | xml_escape }}</subtitle>
+  {% endif %}
+  {% else %}
   {% if site.description %}
     <subtitle>{{ site.description | xml_escape }}</subtitle>
   {% endif %}
-
+  {% endif %}
   {% if site.author %}
     <author>
         <name>{{ site.author.name | default: site.author | xml_escape }}</name>

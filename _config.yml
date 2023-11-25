@@ -7,8 +7,8 @@ description: "Welcome to the House of yay! Home of soulful, funky, disco house g
 keywords: "house music, disco, disco house, soulful house, funky house, gay, gay dj, rob yay, djrobyay, robyay"
 skills: "soulful, funky, disco house DJ"
 meta_author: "DJ RobYAY"
-google_verify:
-bing_verify:
+google_verify: "V90PdanvvHT10Q7MMz_LgSf7RrjSnTLWPXjEogtDEco"
+bing_verify: "18DDF7EFF4D39C2F37FE937ABA524350"
 contact: static
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -24,8 +24,8 @@ color:
 # Footer settings
 footer:
   copyright: djrobyay
-  location: On the earth
-  social: On the internets
+  location: "On the earth:"
+  social: "On the internets:"
   credits: "Don't forget what Diana Ross Says:"
 
 social:

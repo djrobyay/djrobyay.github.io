@@ -36,11 +36,11 @@ housemixesuser: djrobyay
 social:
   - title: mixcloud
     url: https://mixcloud.com/djrobyay
-    hovertext: listen to mixes on mixcloud.com
+    hovertext: listen to sets at mixcloud
   - title: house
     iconalt: solid
     url: https://www.house-mixes.com/profile/djrobyay
-    hovertext: listen and download mixes on house-mixes.com
+    hovertext: listen to and download sets at house-mixes
   - title: instagram
     url: https://www.instagram.com/djrobyay
   - title: twitter

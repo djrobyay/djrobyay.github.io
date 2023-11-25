@@ -9,8 +9,12 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p>Welcome to the House of yay!</p>
-        <p>Home of soulful, funky, disco house grooves.</p>
+    {% if site.subtitle and site.subtitle != empty %}
+        <p>{{ site.subtitle }}</p>
+    {% endif %}
+    {% if site.description and site.desctiption != empty %}
+        <p>{{ site.description }}</p>
+    {% endif %}
       </div>
     </div>
     <hr class="star-light">

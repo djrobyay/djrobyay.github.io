@@ -27,6 +27,17 @@
         <li class="page-scroll">
           <a href="#contact">Contact</a>
         </li>
+        {% for network in site.social %}
+        <li>
+          {% if network.iconalt %}
+          <a href="{{ network.url }}" class="btn-social btn-outline">
+              <i class="fa-{{ network.iconalt }} fa-fw fa-{{ network.title }}"></i></a>
+          {% else %}
+          <a href="{{ network.url }}" class="btn-social btn-outline">
+              <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+          {% endif %}
+        </li>
+        {% endfor %}
       </ul>
     </div>
     <!-- /.navbar-collapse -->

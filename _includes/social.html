@@ -1,0 +1,17 @@
+<!-- Social Media buttons -->
+          <ul class="list-inline">
+            {% for network in site.social %}
+            <li>
+              {% if network.hovertext and network.hovertext != empty %}
+              <a href="{{ network.url }}" class="btn-social btn-outline" title="{{ network.hovertext }}">
+              {% else %}
+              <a href="{{ network.url }}" class="btn-social btn-outline" title="{{ network.title }}">
+              {% endif %}
+              {% if network.iconalt %}
+                  <i class="fa-{{ network.iconalt }} fa-fw fa-{{ network.title }}"></i></a>
+              {% else %}
+                  <i class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>

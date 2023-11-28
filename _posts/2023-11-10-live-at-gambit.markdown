@@ -13,7 +13,7 @@ description:
   - line: "But... that was fucking addictive! It’s a damn shame I had such a short time slot! I could have played for hours."
   - line: "Extra special thanks to Diesel, Hannah, Suwasit, and Tiffany for coming out and supporting me at my very first performance! It meant fucking everything to me."
 tracks:
-  - artist: Bird, Kelli Sae
+  - artist: Birdee, Kelli Sae
     title: Best There Ever Was
     number: 1
   - artist: DJ Laurel

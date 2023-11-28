@@ -42,6 +42,8 @@
               <hr class="star-primary">
               {% endif %}
             </ul>
+            {% if post.tracks and post.tracks != empty %}
+            <h3>Track List:</h3>
             <table align=center>
               <tr>
                 <th>#</th>
@@ -56,6 +58,7 @@
               </tr>
             {% endfor %}
             </table>
+            {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
           </div>
         </div>

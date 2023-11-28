@@ -50,7 +50,7 @@ layout: null
       <link href="https://www.house-mixes.com/profile/{{ site.housemixesuser }}/{{ post.housemixes }}" rel="alternate" type="text/html" title="Listen to {{ post.title }} at House-Mixes.com" />
       {% endif %}
       {% if post.mixcloud and post.mixcloud != empty %}
-      <link href="https://www.mixcloud.com/{{ site.mixclouduser }}/{{ post.mixcloud }}/" rel="alternate" type="text/html" title="Listen at {{ post.title }} Mixcloud.com" />
+      <link href="https://www.mixcloud.com/{{ site.mixclouduser }}/{{ post.mixcloud }}/" rel="alternate" type="text/html" title="Listen at {{ post.title }} at Mixcloud.com" />
       {% endif %}
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>

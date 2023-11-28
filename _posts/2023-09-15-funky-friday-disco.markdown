@@ -8,7 +8,7 @@ alt: "lighted disco ball with some funky wallpaper"
 title: Funky Friday Disco (2023-09-15)
 description:
   - line: Working on the Raining Man set got me excited, but it was a pretty lazy set - I barely even mixed any of the tracks together. So I really wanted to do something that could actually show what I could do.
-  - line: With this set, I was experimenting with a bunch of new tracks that I hadn't played with at all. Like the Raining Man set, most of the tracks had no cue points, so I was kinda jazzing it up.
+  - line: With this set, I was experimenting with a bunch of new tracks that I hadn’t played with at all. Like the Raining Man set, most of the tracks had no cue points, so I was kinda jazzing it up.
 tracks:
   - artist: 79.5
     title: As I Wait for Your Love
@@ -21,7 +21,7 @@ tracks:
   - artist: Leroy Burgess,The Reflex
     title: Heavenly (The Reflex Revision)
   - artist: Loleatta Holloway,The Reflex
-    title: Mama Don't Papa Won't (The Reflex Revision)
+    title: Mama Don’t Papa Won’t (The Reflex Revision)
   - artist: Louie Vega,Anane,Tony Touch
     title: Last Night a DJ Saved My Life
   - artist: Metropolis,The Reflex
@@ -51,13 +51,13 @@ tracks:
   - artist: First Choice,Alan Dixon
     title: Let No Man Put Asunder (Alan Dixon Remix)
   - artist: Fonda Rae,Victor Simonelli
-    title: Over Like a Fat Rat 95' (Victor Simonelli Club Mix)
+    title: Over Like a Fat Rat 95’ (Victor Simonelli Club Mix)
   - artist: The Shapeshifters,Billy Porter
     title: Finally Ready (Extended Monologue Mix)
   - artist: Fibre Foundation,Kelli Sae,Dave Lee
     title: Weekend (Joey Negro Disco Re-Blend)
   - artist: Tasha LaRae,DJ Spen,John Morales
-    title: Wish I Didn't Miss You (John Morales M+M Vocal Mix)
+    title: Wish I Didn’t Miss You (John Morales M+M Vocal Mix)
   - artist: Robin S,Emmaculate
     title: Show Me Love (Emmaculate Remix)
   - artist: Suki Soul,Yam Who?,Jaegerossa

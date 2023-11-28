@@ -50,7 +50,7 @@ tracks:
   - artist: Ciccio Merola Loove DJ
     title: Loud
   - artist: The Salsoul Orchestra & Skyy
-    title: Here's To You (Moplen Boogie Down Mix)
+    title: Here’s To You (Moplen Boogie Down Mix)
   - artist: Antonio Giacca
     title: Down Like The River
   - artist: Jo Paciello
@@ -80,7 +80,7 @@ tracks:
   - artist: Gary Caos
     title: Street Player
   - artist: Kevin McKay
-    title: Tom's Diner
+    title: Tom’s Diner
   - artist: Mark Knight, Discoworker, Robbie Leslie
     title: The Diary Of A Studio 54 DJ
   - artist: Roger Da’Silva

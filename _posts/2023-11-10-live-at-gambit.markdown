@@ -9,8 +9,8 @@ title: "Live at Gambit (2023-11-10)"
 description:
   - line: "So this is pretty exciting: this was my very first time performing live in front of strangers."
   - line: "The event was organized by the folks who started teaching me how to work with moden DJ equipment and software, and featured other graduates of the program."
-  - line: "Unfortunately, I had only thirty minutes. And I was getting on an airplane first thing the next morning, to go hear my friend <a href='https://dylandrazen.com/'>Dylan Drazen</a> spin a fierce classic 90s house set in Fort Lauderdale, so I couldn't even stay to hear everyone play."
-  - line: "But... that was fucking addictive! It's a damn shame I had such a short time slot! I could have played for hours."
+  - line: "Unfortunately, I had only thirty minutes. And I was getting on an airplane first thing the next morning, to go hear my friend <a href='https://dylandrazen.com/'>Dylan Drazen</a> spin a fierce classic 90s house set in Fort Lauderdale, so I couldn’t even stay to hear everyone play."
+  - line: "But... that was fucking addictive! It’s a damn shame I had such a short time slot! I could have played for hours."
   - line: "Extra special thanks to Diesel, Hannah, Suwasit, and Tiffany for coming out and supporting me at my very first performance! It meant fucking everything to me."
 tracks:
   - artist: Lana del Rey
@@ -18,7 +18,7 @@ tracks:
   - artist: HP Vince
     title: Everybody Dance (Disco Mix)
   - artist: Average White Band
-    title: Let's Go Round Again (Dimitri from Paris Remix)
+    title: Let’s Go Round Again (Dimitri from Paris Remix)
   - artist: Soulbridge, Ms Onyie
     title: Trip The Light (FAM Disco Mix)
   - artist: Sameed
@@ -30,25 +30,25 @@ tracks:
   - artist: Antonello Ferrari, Aldo Bergamasco, Dana Brown
     title: Good Love (Antonello Ferrari & Aldo Bergamasco Club Mix)
   - artist: Black Box
-    title: I Don't Know Anybody Else (Motown Disco Anthem)
+    title: I Don’t Know Anybody Else (Motown Disco Anthem)
   - artist: D.C. LaRue
     title: Cathedrals (Dr Packer Extended Remix)
   - artist: Adeva
     title: In & Out of My Life (Michael Gray Remix)
   - artist: The Shapeshifters, ft. Teni Tinks
-    title: You Ain't Love (Express Mix)
-  - artist: Donald's House
+    title: You Ain’t Love (Express Mix)
+  - artist: Donald’s House
     title: Piano Parfait
-  - artist: Tasita D'mour, Purple Disco Machine
+  - artist: Tasita D’mour, Purple Disco Machine
     title: Rise (Original Mix)
   - artist: John Soulution
     title: Take Me Back (Jamie Lewis Re-Styled Purple Mix)
   - artist: Carl Cox, Geraldine Hunt
-    title: Can't Fake the Feeling (Carl Cox Extended Rework)
+    title: Can’t Fake the Feeling (Carl Cox Extended Rework)
   - artist: Prospect Park
-    title: Shake It Up Tonight (Dave Lee's Disco Re-Shake)
+    title: Shake It Up Tonight (Dave Lee’s Disco Re-Shake)
   - artist: Mark Picchiotti, JKriv, Lisa Millett
-    title: Cryin' Out For Help
+    title: Cryin’ Out For Help
   - artist: The Shapeshifters, ft. Teni Tinks
     title: When Love Breaks Down (Late Nite Tuff Guy Extended Disco Remix)
   - artist: Birdee ft. Nell Shakespeare
@@ -59,7 +59,7 @@ tracks:
     title: Thank You (Eric Kupper Remix)
   - artist: Re-Tide
     title: Losing Control Now [Just for Tonight] (Extended Mix)
-  - artist: Bobby D'ambrosio & Michelle Weeks
+  - artist: Bobby D’ambrosio & Michelle Weeks
     title: Moment Of My Life (Dave Lee Xtended Re-Organ-Ization)
   - artist: First Choice
     title: Let No Man Put Asunder (Alan Dixon Remix)

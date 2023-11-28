@@ -14,57 +14,84 @@ description:
 tracks:
   - artist: Beth Orton
     title: I Wish I Never Saw the Sunshine
+    number: 1
   - artist: Tina Turner
     title: I Can’t Stand the Rain
+    number: 2
   - artist: Madonna
     title: Rain
+    number: 3
   - artist: Jay Atwood
     title: Sometimes it Rains
+    number: 4
   - artist: Bill Withers
     title: Lovely Day
+    number: 5
   - artist: The Orb and Alan Parker
     title: Grey Clouds
+    number: 6
   - artist: Everything But the Girl
     title: My Head is My Only House Unless it Rains
+    number: 7
   - artist: Daft Punk ft. Adele
     title: Set Fire to the Rain
+    number: 8
   - artist: Katrina & The Waves
     title: Walking on Sunshine
+    number: 9
   - artist: The Sunshine Band
     title: Rock Your Baby
+    number: 10
   - artist: Chaka Khan
     title: Clouds
+    number: 11
   - artist: Prince
     title: Purple Rain (Ultrasound 12” version)
+    number: 12
   - artist: Wet Willie
     title: Weekend
+    number: 13
   - artist: Dire Straits
     title: It Never Rains
+    number: 14
   - artist: Supertramp
     title: It’s Raining Again
+    number: 15
   - artist: Frankie Knuckles ft. Lisa Michaelis
     title: Rain Falls (David’s 12" Soakin Wet Mix)
+    number: 15
   - artist: Lacarno & Burns
     title: We Love the Rain
+    number: 16
   - artist: Purple Disco Machine, Frankie Steel / Lady Gaga & Ariana Grande
     title: Rain on Me
+    number: 17
   - artist: Eurythmics
     title: Here Comes the Rain Again (Burger Boys Extended Refixed Bootleg Club Remix)
+    number: 18
   - artist: Purple Disco Machine, Milk & Sugar
     title: Let the Sun Shine
+    number: 19
   - artist: Jars of Clay
     title: Flood (Junior Vasquez Club Remix)
+    number: 20
   - artist: Eddie Rabbitt
     title: I Love a Rainy Night (Extended Meow Mix)
+    number: 21
   - artist: Martha Wash ft. RuPaul
     title: "It’s Raining Men: The Sequel (Almighty Mix)"
+    number: 22
   - artist: Groove Armada
     title: At the River
+    number: 23
   - artist: Frank Sinatra
     title: Come Rain or Come Shine
+    number: 24
   - artist: Ray Charles & Johnny
     title: Mathis Over the Rainbow
+    number: 25
   - artist: Smashmouth
     title: Sorry About Your P#!@s
+    number: 26
 mixcloud: raining-man-2023
 ---

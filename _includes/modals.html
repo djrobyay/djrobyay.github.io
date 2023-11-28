@@ -42,7 +42,6 @@
               <hr class="star-primary">
               {% endif %}
             </ul>
-            {% assign ns = namespace(c = 0) %}
             <table>
               <thead>
                 <tr>
@@ -53,9 +52,8 @@
               </thead>
               <tbody>
               {% for track in post.tracks %}
-              {% assign ns.c = ns.c + 1 %}
                 <tr>
-                  <td>{{ ns.c }}</td>
+                  <td>{{ track.number }}</td>
                   <td>{{ track.artist }}</td>
                   <td>{{ track.title }}</td>
                 </tr>

@@ -14,31 +14,45 @@ description:
 tracks:
   - artist: Natalie Cole
     title: This Will Be (An Everlasting Love)
+    number: 1
   - artist: Bobby Womack
     title: Across 110th Street
+    number: 2
   - artist: Marvin Gaye
     title: I Heard it Through the Grapevine
+    number: 3
   - artist: Four Tops
     title: Reach Out (I’ll Be There)
+    number: 4
   - artist: The Temptations
     title: Papa was a Rollin’ Stone
+    number: 5
   - artist: Philadelphia Society
     title: 100 South of Broadway Part 1 (7")
+    number: 6
   - artist: Roberta Flack and Donny Hathaway
     title: Where is the Love?
+    number: 7
   - artist: The Supremes
     title: You Keep Me Hangin’ On
+    number: 8
   - artist: Martha Reeves and The Vandellas
     title: Jimmy Mack
+    number: 9
   - artist: The Supremes
     title: Love is Like an Itching in My Heart
+    number: 10
   - artist: Earth, Wind, & Fire
     title: After the Love Has Gone
+    number: 11
   - artist: The Supremes
     title: I Hear a Symphony
+    number: 12
   - artist: Crown Heights Affair
     title: Dreaming a Dream (7" Disco Version)
+    number: 13
   - artist: The Caravans
     title: Nobody Knows Like the Lord
+    number: 14
 mixcloud: gimme-some-motown-2023-11-26
 ---

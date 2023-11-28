@@ -12,22 +12,31 @@ description:
 tracks:
   - artist: Bird, Kelli Sae
     title: Best There Ever Was
+    number: 1
   - artist: DJ Laurel
     title: Mostly About the Paper
+    number: 2
   - artist: Mark Lower, Fleur De Mur
     title: Don’t Mess with Disco (Extended Mix)
+    number: 3
   - artist: Frankie Steel / Lady Gaga & Ariana Grande
     title: Rain On Me (Purple Disco Machine Remix - Short Edit)
+    number: 4
   - artist: Pathy Andréas, Soulbridge
     title: Dancing with You
+    number: 5
   - artist: Antonio Giacca
     title: Down Like The River
+    number: 6
   - artist: Suki Soul, Yam Who?, Jaegerossa
     title: Wear it Out (Extended Disco Vocal Mix)
+    number: 7
   - artist: JBMixx, Ezel
     title: Little Girl (Ezel Vocal Remix)
+    number: 8
   - artist: Soul Saver
     title: Another Day
+    number: 9
 mixcloud: its-a-funky-soul-disco-thanksgiving-20231121
 housemixes: its-a-funky-soul-disco-thanksgiving-2023-11-21
 ---

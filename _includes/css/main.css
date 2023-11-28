@@ -76,6 +76,14 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    background-color: #e2d3f2;
+}
+
 .img-centered {
     margin: 0 auto;
 }

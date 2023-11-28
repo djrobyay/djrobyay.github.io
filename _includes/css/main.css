@@ -77,8 +77,8 @@ hr.star-primary:after {
 }
 
 table, th, td {
-    border: 2px solid white;
-    border-collapse: separate;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 th, td {
     background-color: #{{ site.color.primary-light }};

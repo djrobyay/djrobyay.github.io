@@ -81,7 +81,8 @@ table, th, td {
     border-collapse: separate;
 }
 th, td {
-    background-color: #96D4D4;
+    background-color: #{{ site.color.primary-light }};
+    color: #{{ site.color.secondary-dark }};
 }
 th {
     text-align: center;

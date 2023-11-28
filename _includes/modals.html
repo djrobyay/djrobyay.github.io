@@ -46,7 +46,7 @@
             {% for track in post.tracks %}
             {% assign ns.c = ns.c + 1 %}
             <tr>
-              <td>ns.c</td>
+              <td>{{ ns.c }}</td>
               <td>{{ track.artist }}</td>
               <td>{{ track.title }}</td>
             </tr>

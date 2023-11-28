@@ -57,7 +57,7 @@ tracks:
   - artist: Eddie Rabbitt
     title: I Love a Rainy Night (Extended Meow Mix)
   - artist: Martha Wash ft. RuPaul
-    title: It’s Raining Men: The Sequel (Almighty Mix)
+    title: "It’s Raining Men: The Sequel (Almighty Mix)"
   - artist: Groove Armada
     title: At the River
   - artist: Frank Sinatra

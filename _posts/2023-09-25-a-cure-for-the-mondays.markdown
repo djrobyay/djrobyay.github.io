@@ -75,7 +75,7 @@ tracks:
     title: What You Need (Denney Remix)
   - artist: St Jude
     title: Groovin
-  - artist: BLOND:ISH
+  - artist: "BLOND:ISH"
     title: Call My Name
   - artist: Gary Caos
     title: Street Player

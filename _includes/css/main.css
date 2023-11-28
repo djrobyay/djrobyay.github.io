@@ -77,12 +77,13 @@ hr.star-primary:after {
 }
 
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: 2px solid white;
+    border-collapse: separate;
 }
 th, td {
     background-color: #{{ site.color.primary-light }};
     color: #{{ site.color.secondary-dark }};
+    padding: 5px;
 }
 th {
     text-align: center;

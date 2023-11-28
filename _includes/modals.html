@@ -43,14 +43,16 @@
               {% endif %}
             </ul>
             {% assign ns = namespace(c = 0) %}
+            <tbody>
             {% for track in post.tracks %}
             {% assign ns.c = ns.c + 1 %}
-            <!--tr>
-              <td>{{ ns.c }}</td>
-              <td>{{ track.artist }}</td>
-              <td>{{ track.title }}</td>
-            </tr-->
+              <tr>
+                <td>{{ ns.c }}</td>
+                <td>{{ track.artist }}</td>
+                <td>{{ track.title }}</td>
+              </tr>
             {% endfor %}
+            </tbody>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>

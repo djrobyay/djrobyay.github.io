@@ -78,12 +78,18 @@ hr.star-primary:after {
 
 table, th, td {
     border: 2px solid white;
-    border-collapse: collapse;
+    border-collapse: separate;
 }
 th, td {
-    background-color: #e2d3f2;
+    background-color: #96D4D4;
 }
-
+th {
+    text-align: center;
+}
+td {
+    text-align: justify;
+    vertical-align: bottom;
+}
 .img-centered {
     margin: 0 auto;
 }

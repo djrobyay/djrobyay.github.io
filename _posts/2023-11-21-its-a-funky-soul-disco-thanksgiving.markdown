@@ -37,6 +37,6 @@ tracks:
   - artist: Soul Saver
     title: Another Day
     number: 9
-mixcloud: its-a-funky-soul-disco-thanksgiving-20231121
-housemixes: its-a-funky-soul-disco-thanksgiving-2023-11-21
+mixcloud: live-at-gambit-20231110
+housemixes: live-at-gambit-2023-11-10
 ---

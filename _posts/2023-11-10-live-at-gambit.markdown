@@ -94,6 +94,6 @@ tracks:
   - artist: M People
     title: One Night in Heaven (12")
     number: 27
-mixcloud: live-at-gambit-20231110
-housemixes: live-at-gambit-2023-11-10
+mixcloud: its-a-funky-soul-disco-thanksgiving-20231121
+housemixes: its-a-funky-soul-disco-thanksgiving-2023-11-21
 ---

@@ -44,7 +44,7 @@
             </ul>
             {% assign ns = namespace(c = 0) %}
             {% for track in post.tracks %}
-            {% set ns.c = ns.c + 1 %}
+            {% assign ns.c = ns.c + 1 %}
             <tr>
               <td>ns.c</td>
               <td>{{ track.artist }}</td>

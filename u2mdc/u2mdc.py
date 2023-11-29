@@ -5,6 +5,7 @@ import sys
 import json
 import yaml
 import argparse
+import datetime
 import requests
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
@@ -72,6 +73,16 @@ def getpic(y):
     return pic, picfile, pictype
 
 
+def getpublish(y):
+    now = datetime.datetime.now()
+    tzoffset = now.astimezone().tzinfo.utcoffset(now)
+    pd = datetime.datetime.fromisoformat(y.get('publish-date')) - tzoffset
+    if pd > now:
+        return pd.isoformat()
+    else:
+        sys.stderr.write(f'publish-date must be in the future (requested: {pd})\n')
+
+
 def gettags(y):
     tags = y.get('tags').split(',')
     if len(tags) > 5:
@@ -110,7 +121,7 @@ def p(content):
 
 def postcontent(fields, url):
     m = MultipartEncoder( fields )
-    return requests.post(url, data=m, headers={'Content-Type': m.content_type})
+    return requests.post(url, data=m, headers={ 'Content-Type': m.content_type })
 
 
 def run(access_token, update, yamlfile):
@@ -124,7 +135,7 @@ def run(access_token, update, yamlfile):
                          pic=pic,
                          picfile=picfile,
                          pictype=pictype,
-                         publish_date=y.get('publish-date'),
+                         publish_date=getpublish(y),
                          tags=gettags(y),
                          tracks=y.get('tracks') )
     # if we have a mixcloud key already, we need to update
@@ -141,17 +152,34 @@ def run(access_token, update, yamlfile):
         fields['mp3'] = (mp3file, open(mp3, 'rb'), 'audio/mp3')
         url = f'https://api.mixcloud.com/upload/?access_token={ access_token }'
     # do it
-    sys.stdout.write(f'## now uploading {name} to Mixcloud\n')
+    sys.stdout.write(f'## now uploading { name } to Mixcloud\n')
     r = postcontent(fields=fields, url=url)
     # and, vaguely report on it. :)
     if r.status_code == 200:
-        key = json.loads(r.content).get('result').get('key')
-        sys.stdout.write(f'{name}: OK - mixcloud key: {key}\n')
+        result = json.loads(r.content).get('result')
+        key = result.get('key')
+        msg = result.get('message')
+        if not update:
+            y['mixcloud'] = key
+            with open(yamlfile,'a') as existing:
+                existing.write(f'{ key }\n')
+                existing.write('---\n')
+            sys.stdout.write(f'{ msg }\n')
+        else:
+            sys.stdout.write(f'{ msg } - mixcloud key: { key }\n')
     else:
-        sys.stdout.write(f'{name}: FAIL (response code: {r.status_code})\n')
-        result = json.loads(r.content).get('error')
+        sys.stdout.write(f'{ name }: FAIL (response code: { r.status_code })\n')
+        result = json.loads(r.content)
+        error = result.get('error')
+        details = result.get('details')
+        if isinstance(details, dict):
+            for bit in result:
+                sys.stdout.write(f'{ bit }: ')
+                for res in result[bit]:
+                    sys.stdout.write(f'{ res } ')
+                sys.stdout.write('\n')
         for bit in result:
-            sys.stdout.write(f'error {bit}: {result[bit]}\n')
+            sys.stdout.write(f'error { bit }: { result[bit] }\n')
         sys.stdout.write('\n')
         sys.exit(1)
 

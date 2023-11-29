@@ -159,13 +159,13 @@ def run(access_token, update, yamlfile):
         result = json.loads(r.content).get('result')
         key = result.get('key')
         msg = result.get('message')
-        if not update:
-            y['mixcloud'] = key
-            with open(yamlfile,'a') as existing:
-                existing.write(f'{ key }\n')
-                existing.write('---\n')
+        if update:
             sys.stdout.write(f'{ msg }\n')
         else:
+            y['mixcloud'] = key
+            with open(yamlfile,'a') as existing:
+                existing.write(f'mixcloud: { key.split("/")[2:-1][0] }\n')
+                existing.write('---\n')
             sys.stdout.write(f'{ msg } - mixcloud key: { key }\n')
     else:
         sys.stdout.write(f'{ name }: FAIL (response code: { r.status_code })\n')

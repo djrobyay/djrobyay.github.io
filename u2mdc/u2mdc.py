@@ -76,11 +76,14 @@ def getpic(y):
 def getpublish(y):
     now = datetime.datetime.now()
     tzoffset = now.astimezone().tzinfo.utcoffset(now)
-    pd = datetime.datetime.fromisoformat(y.get('publish-date')) - tzoffset
-    if pd > now:
-        return pd.isoformat()
-    else:
-        sys.stderr.write(f'publish-date must be in the future (requested: {pd})\n')
+    publish_date = y.get('publish-date')
+    if publish_date:
+        pd = datetime.datetime.fromisoformat(publish_date) - tzoffset
+        if pd > now:
+            return pd.isoformat()
+        else:
+            sys.stderr.write(f'publish-date must be in the future (requested: {pd})\n')
+    return False
 
 
 def gettags(y):

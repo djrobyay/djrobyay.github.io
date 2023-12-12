@@ -7,7 +7,7 @@ img: 2023.12.06.60s.70s.soul.jpeg
 alt: "60s and 70s Soul Music"
 mp3: 2023-12-06.the.soul.of.the.60s.and.70s.part1.mp3
 tags: 60s-soul, 70s-soul
-title: "The Soul of the 60s and 70, Part 1 (2023-12-06)"
+title: "The Soul of the 60s and 70s, Part 1 (2023-12-06)"
 description:
   - line: "As a child of the 70s and 80s, I have always been drawn to the soulful sounds of the 60s and 70s. The raw emotion, the groovy beats, and the powerful lyrics of these tracks have always inspired me, and they shape the way I make music today."
   - line: "In this collection of sets, I spin some of my favorite soul tracks from the 60s and 70s that have been a constant source of motivation and inspiration for me. From the smooth, sultry sounds of Marvin Gaye and Aretha Franklin, to the funky, upbeat grooves of James Brown and Earth, Wind & Fire, these tracks have been a driving force behind my own musical history."

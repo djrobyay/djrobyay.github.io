@@ -57,7 +57,7 @@ tracks:
     title: "100 Degrees"
   - number: 15
     title: "Rockin' Around the Pole"
-    artist: "The Hot Elves, feat. Erika Henningsen, Taylor Louderman, Ashley Park and Kate Rockwell) [from Mean Girls]"
+    artist: "The Hot Elves, feat. Erika Henningsen, Taylor Louderman, Ashley Park and Kate Rockwell (from Mean Girls)"
   - number: 16
     artist: "Mariah Carey"
     title: "All I Want For Christmas Is You"

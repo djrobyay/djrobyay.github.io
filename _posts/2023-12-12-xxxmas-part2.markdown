@@ -10,7 +10,7 @@ tags: christmas, christmas-soul, christmas-funk, christmas-gay
 title: "Feeling Like a Little Bit of Funky, Funky xxxmas, Part 2 (2023-12-12)"
 description:
   - line: "Normally, xxxmas music is about as far from my musical wheelhouse as music gets. The saccharine melodies, the overplayed classics, the relentless cheer – it's enough to make me want to go on a mad stabbing rampage. But this year, something different happened."
-  - line: "Having been asked to prepare a holiday set, a spark of rebellion ignited within me. Instead of allowing my friends to succumb to predictable holiday tunes, I decided to unleash a sonic storm of soulful funk and disco, all with a decidedly xxxmas twist.. It wasn't about hating on tradition, but rather about breathing new life into it, infusing it with the infectious energy of the dance floor."
+  - line: "Having been asked to prepare a holiday set, a spark of rebellion ignited within me. Instead of allowing my friends to succumb to predictable holiday tunes, I decided to unleash a sonic storm of soulful funk and disco, all with a decidedly xxxmas twist.. It wasn't about hating on tradition, but rather about breathing new life into it, maybe even infusing it with the infectious energy of the dance floor."
   - line: "This is part two in a series of what I currently expect to be at least three, maybe as many as five total sets. So, if you're tired of the same old xxxmas tunes, keep listening. I'm still just getting started."
 tracks:
   - number: 1

@@ -92,12 +92,9 @@ tracks:
     artist: "Papik"
     title: "Christmas Snow"
   - number: 27
-    artist: "Holiday Express"
-    title: "Disco Santa (Santa Claus / N.O.E.L.)"
-  - number: 28
     artist: "Lisa Lois"
     title: "A Little Bit Of Christmas"
-  - number: 29
+  - number: 28
     artist: '"Weird Al" Yankovic'
     title: "The Night Santa Went Crazy"
 mixcloud: feeling-like-a-little-bit-of-funky-funky-xxxmas-part-1-2023-12-11

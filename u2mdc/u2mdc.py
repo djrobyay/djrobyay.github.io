@@ -41,6 +41,10 @@ def getdesc(y):
     for d in y.get('description'):
         desc += f'{ d.get("line") }\n\n'
     desc = desc[:-1]
+    desclen = len(desc)
+    maxdesclen = 1000
+    if desclen > maxdesclen:
+        raise SystemExit(f'description too long (length: { desclen }, max length: { maxdesclen })')
     return desc
 
 

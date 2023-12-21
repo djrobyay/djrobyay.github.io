@@ -80,7 +80,7 @@ tracks:
     title: "If This Ain't Love (Purple Disco Machine & Lorenz Rhode Extended Remix)"
   - number: 21
     artist: "KPD"
-    title: "Disco's Revenge (Discotron Extended Remix) [Vicious].mp3otrkLptrkD"
+    title: "Disco's Revenge (Discotron Extended Remix"
   - number: 22
     artist: "Suki Soul x Sparkling Attitude"
     title: "Disco Delight (Extended Mix)"

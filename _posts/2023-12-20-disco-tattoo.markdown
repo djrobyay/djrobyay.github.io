@@ -14,9 +14,9 @@ description:
   - line: "First and foremost, disco's impact on house music cannot be overstated. The genre's emphasis on strong beats, catchy melodies, and soulful vocals has shaped the sound of house music as we know it today. From the iconic divas of the 70s to the contemporary artists keeping the genre alive, disco's influence is felt throughout the house music scene."
   - line: "Personally, I've always been drawn to the big gurl vocals and solid instrumentals that define disco. The genre's ability to make me feel empowered and unstoppable is unparalleled. Whether I'm dancing the night away or simply listening to my favorite tracks, disco always puts me in the right mood."
   - line: "To celebrate my love for disco and its influence on house music, I compiled this set of some of my current favorite tracks. From Purple Disco Machine to Soulstar Syndicate and Escort, these artists embody the spirit of disco and its continued relevance in the music scene today."
-  - line: "As I sat in the tattoo chair, listening to these tracks and feeling the beat of the needle, I knew that this was more than just a tattoo - it was a declaration of my commitment to the groove. Disco has been a constant source of joy and inspiration in my life, and now, it would be forever etched on my skin."
+  - line: "As I lay in the tattoo chair, listening to these tracks and feeling the beat of the needle, I knew that this was more than just a tattoo - it was a declaration of my commitment to the groove. Disco has been a constant source of joy and inspiration in my life, and now, it would be forever etched on my skin."
   - line: "So, if you're a fellow disco lover or just a fan of great music, I encourage you to give these tracks a listen. Let the beat take over, and let the magic of disco fill your heart and soul. And who knows - maybe you'll find yourself getting a disco-themed tattoo too!"
-  - line: "Tattoo work done by <a href='https://www.instagram.com/k.mo_art'>Kayla Talastas</a> at <a href='https://www.blacksacramenttattoo.com/'>Black Sacrament Tattoo</a> in Las Vegas. She's AMAZINGLY gentle, by the way!"
+  - line: "Tattoo work done by <a href='https://www.instagram.com/k.mo_art'>Kayla Talastas</a> at <a href='https://www.blacksacramenttattoo.com/'>Black Sacrament Tattoo</a> in Las Vegas. She's AMAZINGLY gentle, by the way! Cannot recommend highly enough."
 tracks:
   - number: 1
     artist: "Lady Gaga & Ariana Grande"
@@ -124,4 +124,5 @@ tracks:
     artist: "Ethel Merman"
     title: "Everything's Coming Up Roses (Original extended 12 inch Disco Club Remix)"
 mixcloud: disco-tattoo-2023-12-20
+housemixes: disco-tattoo-2023-12-20
 ---
